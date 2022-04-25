@@ -1,0 +1,100 @@
+#title {
+  background-color: #373737;
+  color: #6d6d6d;
+}
+
+h3{
+  color: #6d6d6d;
+}
+
+hr{
+  border: solid 3px;
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.navbar-brand {
+  font-family: Montserrat;
+  line-height: 1.5rem;
+  letter-spacing: 3px;
+  padding-left: 20px;
+}
+
+.nav-item{
+  font-family: Ubuntu;
+  padding-right: 50px;
+}
+.btn-add{
+  color: #da2f0c;
+  outline-color: #da2f0c;
+}
+
+.btn-buy{
+  color: #fff;
+  background-color: #da2f0c;
+}
+
+.mirage-picture {
+  text-align: right;
+  padding: 3% 1% 0 0;
+}
+
+.mirage-sample-pack {
+  text-align: left;
+  color: #fff;
+  padding: 3% 10% 0 3%;
+}
+
+.mirage-description {
+  font-weight: 400;
+  line-height: 2rem;
+  padding: 7% 200px 7% 0;
+  color: #6d6d6d;
+}
+
+.mirage-extras {
+  line-height: 2px;
+  padding: 3%;
+  color: #6d6d6d;
+}
+
+.d-grid {
+  padding-right: 200px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+@media (max-width: 1000px) {
+  .mirage-picture {
+    text-align: center;
+  }
+  .mirage-sample-pack {
+    text-align: center;
+    color: #fff;
+  }
+
+  .d-grid {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .mirage-description {
+    text-align: center;
+    font-weight: 300;
+    line-height: 2rem;
+    padding: 7% 100px 7% 100px;
+  }
+
+}
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+}
+
+.footer-icons{
+  padding: 3% 18px;
+}
